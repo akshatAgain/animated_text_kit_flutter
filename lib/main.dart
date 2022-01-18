@@ -80,13 +80,13 @@ class _AnimationExampleState extends State<AnimationExample> {
                   ),
                 ),
                 SizedBox(
-                  height: 60,
+                  height: 55,
                   child: DefaultTextStyle(
                     style: TextStyle(
                       fontStyle: FontStyle.italic,
                       fontWeight: FontWeight.bold,
                       color: Colors.blueAccent,
-                      fontSize: 40,
+                      fontSize: 35,
                     ),
                     child: AnimatedTextKit(
                       repeatForever: true,
