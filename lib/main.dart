@@ -39,12 +39,14 @@ class _AnimationExampleState extends State<AnimationExample> {
       fontSize: 50.0,
       fontWeight: FontWeight.bold,
     );
-    return Scaffold(
+  return Scaffold(
       body: Center(
         child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SizedBox(
                   height: 20,
