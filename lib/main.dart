@@ -167,37 +167,34 @@ class _AnimationExampleState extends State<AnimationExample> {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        'Flutter apps are ',
-                        style: TextStyle(color: Colors.green, fontSize: 30),
-                      ),
-                      SizedBox(
-                        height: 70,
-                        child: DefaultTextStyle(
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Colors.green,
-                            fontSize: 40,
-                          ),
-                          child: AnimatedTextKit(
-                            repeatForever: true,
-                            isRepeatingAnimation: true,
-                            animatedTexts: [
-                              RotateAnimatedText('fast'),
-                              RotateAnimatedText('smooth'),
-                              RotateAnimatedText('beautiful'),
-                            ],
-                          ),
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      'Flutter apps are ',
+                      style: TextStyle(color: Colors.green, fontSize: 30),
+                    ),
+                    SizedBox(
+                      height: 70,
+                      child: DefaultTextStyle(
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.green,
+                          fontSize: 35,
+                        ),
+                        child: AnimatedTextKit(
+                          repeatForever: true,
+                          isRepeatingAnimation: true,
+                          animatedTexts: [
+                            RotateAnimatedText('fast'),
+                            RotateAnimatedText('smooth'),
+                            RotateAnimatedText('beautiful'),
+                          ],
                         ),
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
                 SizedBox(
                   height: 70,
